@@ -25,7 +25,7 @@ abstract contract Pausable is Context {
      */
     event Unpaused(address account);
 
-    bool private _paused;
+    bool public _paused;
 
     /**
      * @dev Initializes the contract in unpaused state.
